@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(172, 65, 51);
+  color: white;
+}
+
+.nav-links{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.bigbox{
+  display: flex;
+}
+
+.filterflexbox{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.customflexbigbox{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.customflexbox{
+  
+  display: flex; 
+  justify-content: space-between;
+  min-height: 7vh;
+  border-style: groove;
+  padding: 2%;
+  border-radius: 50px 0px 50px 0px;
+  background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgb(233, 153, 153))
+  
+}
+
+.custom2flexbox{
+  
+  display: flex; 
+  justify-content: space-between;
+  min-height: 4vh;
+  
+  
+}
+
+.minheightbox{
+  
+  display: flex; 
+  justify-content: space-around;
+  min-height: 4vh;
+  
+}
